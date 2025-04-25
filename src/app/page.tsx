@@ -60,26 +60,41 @@ export default function Home() {
     <main className="min-h-screen bg-gradient-to-b from-slate-900 to-slate-800">
       {/* Hero Banner */}
       <div className="w-full bg-slate-900">
-        <div className="relative w-full h-[90vh] max-h-[910px] max-w-[1920px] mx-auto">
-          <Image
-            src="/teaser.jpg"
-            alt="Sheikh Assim Al Hakeem Canada Tour"
-            fill
-            className="object-contain"
-            priority
-            quality={100}
-          />
+        <div className="relative w-full h-[80vh] md:h-[90vh] max-h-[910px] max-w-[1920px] mx-auto">
+          {/* Mobile Image (hidden on md and larger screens) */}
+          <div className="block md:hidden w-full h-full">
+            <Image
+              src="/teaser.png"
+              alt="Sheikh Assim Al Hakeem Canada Tour"
+              fill
+              className="object-contain"
+              priority
+              quality={100}
+            />
+          </div>
+          
+          {/* Desktop Image (hidden on smaller screens) */}
+          <div className="hidden md:block w-full h-full">
+            <Image
+              src="/teaser.jpg"
+              alt="Sheikh Assim Al Hakeem Canada Tour"
+              fill
+              className="object-contain"
+              priority
+              quality={100}
+            />
+          </div>
         </div>
       </div>
 
       {/* Hero Text */}
-      <div className="bg-gradient-to-b from-slate-900/95 to-slate-800 py-16">
+      <div className="bg-gradient-to-b from-slate-900/95 to-slate-800 py-4 md:py-16">
         <div className="container mx-auto px-4">
           <div className="text-center text-white">
             <motion.h1 
               initial={{ opacity: 0, y: 20 }}
               animate={{ opacity: 1, y: 0 }}
-              className="text-4xl sm:text-5xl md:text-6xl lg:text-7xl font-bold mb-6"
+              className="text-2xl sm:text-3xl md:text-5xl lg:text-6xl font-bold mb-2 md:mb-6"
             >
               Sheikh Assim Al Hakeem Canada Wide Tour
             </motion.h1>
@@ -87,7 +102,7 @@ export default function Home() {
               initial={{ opacity: 0, y: 20 }}
               animate={{ opacity: 1, y: 0 }}
               transition={{ delay: 0.2 }}
-              className="text-2xl sm:text-3xl md:text-4xl text-sky-400"
+              className="text-lg sm:text-xl md:text-3xl text-sky-400"
             >
               United For Orphans Tour – May 2025
             </motion.p>
@@ -101,7 +116,7 @@ export default function Home() {
         initial={{ opacity: 0, y: 20 }}
         animate={inView ? { opacity: 1, y: 0 } : {}}
         transition={{ duration: 0.6 }}
-        className="container mx-auto px-4 py-12"
+        className="container mx-auto px-4 py-6 md:py-12"
       >
         <div className="max-w-4xl mx-auto text-white space-y-8">
           <div className="text-center mb-12">
