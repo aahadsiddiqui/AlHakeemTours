@@ -169,7 +169,7 @@ export default function Home() {
                     </svg>
                     <p className="font-medium">Blu Legacy Convention Centre</p>
                   </div>
-                  <p className="text-sm text-gray-400">North Bowesville Road, Ottawa, ON, Canada</p>
+                  <p className="text-sm text-gray-400">3750 North Bowesville Road, Ottawa, ON, Canada</p>
                 </div>
                 <motion.a
                   href="https://simpli.events/e/ottawa"
@@ -222,7 +222,7 @@ export default function Home() {
                     </svg>
                     <p className="font-medium">Queen's Manor Event Centre</p>
                   </div>
-                  <p className="text-sm text-gray-400">Auction Lane, Brampton, ON, Canada</p>
+                  <p className="text-sm text-gray-400">2 Auction Lane, Brampton, ON, Canada</p>
                 </div>
                 <motion.a
                   href="https://simpli.events/e/torontomay30"
@@ -275,7 +275,7 @@ export default function Home() {
                     </svg>
                     <p className="font-medium">Taj Park Convention Centre</p>
                   </div>
-                  <p className="text-sm text-gray-400">132 Street, Surrey, BC, Canada</p>
+                  <p className="text-sm text-gray-400">8580 132 Street, Surrey, BC, Canada</p>
                 </div>
                 <motion.a
                   href="https://simpli.events/e/Vancouverjune1"
