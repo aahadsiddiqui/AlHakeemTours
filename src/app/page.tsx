@@ -167,9 +167,9 @@ export default function Home() {
                       <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M17.657 16.657L13.414 20.9a1.998 1.998 0 01-2.827 0l-4.244-4.243a8 8 0 1111.314 0z" />
                       <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M15 11a3 3 0 11-6 0 3 3 0 016 0z" />
                     </svg>
-                    <p className="font-medium">Blu Legacy Convention Centre</p>
+                    <p className="font-medium">Mosaic Convention Centre</p>
                   </div>
-                  <p className="text-sm text-gray-400">3750 North Bowesville Road, Ottawa, ON, Canada</p>
+                  <p className="text-sm text-gray-400">2465 St. Laurent Blvd, Ottawa, ON, Canada</p>
                 </div>
                 <motion.a
                   href="https://simpli.events/e/ottawa"
@@ -220,9 +220,9 @@ export default function Home() {
                       <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M17.657 16.657L13.414 20.9a1.998 1.998 0 01-2.827 0l-4.244-4.243a8 8 0 1111.314 0z" />
                       <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M15 11a3 3 0 11-6 0 3 3 0 016 0z" />
                     </svg>
-                    <p className="font-medium">Queen's Manor Event Centre</p>
+                    <p className="font-medium">Holiday Inn Toronto International Airport</p>
                   </div>
-                  <p className="text-sm text-gray-400">2 Auction Lane, Brampton, ON, Canada</p>
+                  <p className="text-sm text-gray-400">970 Dixon Road, Toronto, ON, Canada</p>
                 </div>
                 <motion.a
                   href="https://simpli.events/e/torontomay30"
